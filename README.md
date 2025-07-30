@@ -1,3 +1,13 @@
+# my change
+supprot Python 3.12
+```
+File "/home/jordon/.vim/plugged/YCM-Generator/config_gen.py", line 105, in main
+change
+ tempfile.NamedTemporaryFile(mode="rw")
+to
+ tempfile.NamedTemporaryFile(mode="w+")
+```
+
 # YCM-Generator
 This is a script which generates a list of compiler flags from a project with an arbitrary build system. It can be used to:
 
